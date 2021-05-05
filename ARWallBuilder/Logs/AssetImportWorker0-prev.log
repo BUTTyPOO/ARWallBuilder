@@ -1,0 +1,84 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/Charlie/ARWallBuilder
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51399
+Successfully changed project path to: /Users/Charlie/ARWallBuilder
+/Users/Charlie/ARWallBuilder
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 150.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.5f1 (3737af19df53)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Charlie/ARWallBuilder/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-05-04 19:42:44.717 Unity[7812:100750] Color LCD preferred device: Intel Iris Graphics (low power)
+2021-05-04 19:42:44.717 Unity[7812:100750] Metal devices available: 1
+2021-05-04 19:42:44.717 Unity[7812:100750] 0: Intel Iris Graphics (low power)
+2021-05-04 19:42:44.718 Unity[7812:100750] Using device Intel Iris Graphics (low power)
+Initializing Metal device caps: Intel Iris Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000676 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 120.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.817 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003029 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 104.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.892 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.9 MB.
+System memory in use after: 181.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3486.
+Total: 3.060424 ms (FindLiveObjects: 0.330278 ms CreateObjectMapping: 0.150211 ms MarkObjects: 2.479598 ms  DeleteObjects: 0.099083 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/PlanePlacement.cs
+  artifactKey: Guid(bedd8704a63ae480886a441010d5062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanePlacement.cs using Guid(bedd8704a63ae480886a441010d5062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808394d6a9b7f93146f1e75dcbc3fab4') in 0.450081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 456.454472 seconds.
+  path: Assets/PlanePlacement.cs
+  artifactKey: Guid(bedd8704a63ae480886a441010d5062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanePlacement.cs using Guid(bedd8704a63ae480886a441010d5062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b9e111e7b996085e7887b33341c558') in 0.037408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 239.313655 seconds.
+  path: Assets/PlanePlacement.cs
+  artifactKey: Guid(bedd8704a63ae480886a441010d5062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanePlacement.cs using Guid(bedd8704a63ae480886a441010d5062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8230e26b75f75757be2300e4ce89e9e') in 0.003123 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
